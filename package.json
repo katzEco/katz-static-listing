@@ -1,0 +1,20 @@
+{
+  "name": "katz-static-listing",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/katzEco/katz-static-listing.git",
+  "author": "Suphakit P. <me@suphakit.net>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "npx nodemon app.js"
+  },
+  "dependencies": {
+    "@ngrok/ngrok": "^0.9.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "serve-index": "^1.9.1"
+  },
+  "devDependencies": {}
+}
